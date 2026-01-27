@@ -1,0 +1,26 @@
+{
+  "name": "pgats_programacao_js",
+  "version": "1.0.0",
+  "description": "pgats_programacao_js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrafael-silvaz/pgats_programacao_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zrafael-silvaz/pgats_programacao_js/issues"
+  },
+  "homepage": "https://github.com/zrafael-silvaz/pgats_programacao_js#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "globals": "^17.1.0",
+    "mocha": "^11.7.5"
+  }
+}
