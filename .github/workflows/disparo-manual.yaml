@@ -1,0 +1,20 @@
+name: 'Execução Manual'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  unidade:
+    runs-on: ubuntu-22.04
+        
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Instalando o yarn
+        run: npm install -g yarn
+
+      - name: Instalando dependencias
+        run: yarn
+
+      - name: executando testes de unidade
+        run: yarn test testes/trabalho-final.js
